@@ -1,47 +1,70 @@
-.Главное_меню{
-    color: red;
-}
-
-
-
-.Дополнительное_меню_ОТИ{
+/*доп. меню Отдела творческих инициатив*/
+.Dop_menu_OTI{
     display: none;
 }
-.Отдел_творческих_инициатив:focus ~ .Дополнительное_меню_ОТИ,
-.Отдел_творческих_инициатив:active ~ .Дополнительное_меню_ОТИ,
-.Дополнительное_меню_ОТИ:hover{
+.Otdel_Tvor_Inic:focus ~ .Dop_menu_OTI,
+.Otdel_Tvor_Inic:active ~ .Dop_Menu_OTI,
+.Dop_menu_OTI:hover{
     display: block;
 }
+/*его завершение*/
 
 
 
-.Дополнительное_меню_ЦМК{
+a:active, /* активная/посещенная ссылка */
+a:hover,  /* при наведении */
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/*доп. меню центр музыкальной культуры*/
+.Dop_menu_CMC{
     display: none;
 }
-.Центр_Музыкальной_Културы:focus ~ .Дополнительное_меню_ЦМК,
-.Центр_Музыкальной_Културы:active ~ .Дополнительное_меню_ЦМК,
-.Дополнительное_меню_ЦМК:hover{
+.Centre_Muz_Cult:focus ~ .Dop_menu_CMC,
+.Centre_Muz_Cult:active ~ .Dop_menu_CMC,
+.Dop_menu_CMC:hover{
     display: block;
 }
+/*его завершение*/
 
 
 
-.Дополнительное_меню_ЦСИ{
+/*доп. меню центр современного искусства*/
+.Dop_menu_CSI{
     display: none;
 }
-.Центр_современного_искусства:focus ~ .Дополнительное_меню_ЦСИ,
-.Центр_современного_искусства:active ~ .Дополнительное_меню_ЦСИ,
-.Дополнительное_меню_ЦСИ:hover{
+.Centre_Sov_Issc:focus ~ .Dop_menu_CSI,
+.Centre_Sov_Issc:active ~ .Dop_menu_CSI,
+.Dop_menu_CSI:hover{
     display: block;
 }
+/*его завершение*/
 
 
 
-.Дополнительное_меню_АС{
+/*доп. меню административного сектора*/
+.Dop_menu_AC{
     display: none;
 }
-.Административный_сектор:focus ~ .Дополнительное_меню_АС,
-.Административный_сектор:active ~ .Дополнительное_меню_АС,
-.Дополнительное_меню_АС:hover{
+.Administration_Sector:focus ~ .Dop_menu_AC,
+.Administration_Sector:active ~ .Dop_menu_AC,
+.Dop_menu_AC:hover{
+    display: block;
+}
+/*его завершение*/
+
+
+
+/*таблица Dop_munu_Культурно-досуговые мероприятя_OTI*/
+.pm_pm_KDM_OTI{
+    display: none;
+}
+.pm_KDM_OTI:focus ~ .pm_pm_KDM_OTI,
+.pm_KDM_OTI:active ~ .pm_pm_KDM_OTI,
+.pm_pm_KDM_OTI:hover{
     display:block;
 }
