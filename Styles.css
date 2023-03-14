@@ -8,14 +8,47 @@
     display: block;
 }
 /*его завершение*/
+table{
+    border: 1px;
+}
+/*таблица Dop_munu_Культурно-досуговые мероприятя_OTI*/
+.pm_pm_KDM_OTI{
+    display: none;
+}
+.pm_KDM_OTI:focus ~ .pm_pm_KDM_OTI,
+.pm_KDM_OTI:active ~ .pm_pm_KDM_OTI,
+.pm_pm_KDM_OTI:hover{
+    display:block;
+}
+/*его завершение*/
+
+.pm_pm_IPM_OTI{
+    display:none;
+}
+
+/*таблица Dop_menu_Культурно-досуговые мероприятия_OTI(условия открытия)*/
+.pm_IPM_OTI:focus ~ .pm_pm_IPM_OTI,
+.pm_IPM_OTI:hover ~ .pm_pm_IPM_OTI,
+.pm_pm_IPM_OTI{
+    display:block;
+}
+/*его завершение*/
 
 
+.pm_pm_K_OTI{
+    display:none;
+}
 
+.pm_K_OTI:focus ~ .pm_pm_K_OTI,
+.pm_K_OTI:active ~ .pm_pm_K_OTI,
+.pm_pm_K_OTI{
+    display:block;
+}
 a:active, /* активная/посещенная ссылка */
 a:hover,  /* при наведении */
 a{
     text-decoration: none;
-    color: black;
+    color:black;
 }
 
 
@@ -31,8 +64,34 @@ a{
 }
 /*его завершение*/
 
+.pm_pm_KDM_CMC{
+    display:none;
+}
 
+.pm_KDM_CMC:active ~ .pm_pm_KDM_CMC,
+.pm_KDM_CMC:focus ~ .pm_pm_KDM_CMC,
+.pm_pm_KDM_CMC{
+    display:block;
+}
 
+.pm_pm_IPM_CMC{
+    display:none;
+}
+.pm_IPM_CMC:active ~ .pm_pm_IPM_CMC,
+.pm_IPM_CMC:focus ~ .pm_pm_IPM_CMC,
+.pm_pm_IPM_CMC:hover{
+    display:block;
+}
+
+.pm_pm_K_CMC{
+    display:none;
+}
+
+.pm_K_CMC:active ~ .pm_pm_K_CMC,
+.pm_K_CMC:focus ~ .pm_pm_K_CMC,
+.pm_pm_K_CMC:hover{
+    display:block;
+}
 /*доп. меню центр современного искусства*/
 .Dop_menu_CSI{
     display: none;
@@ -44,8 +103,34 @@ a{
 }
 /*его завершение*/
 
+.pm_pm_KDM_CSI{
+    display:none;
+}
 
+.pm_KDM_CSI:active ~ .pm_pm_KDM_CSI,
+.pm_KDM_CSI:focus ~ .pm_pm_KDM_CSI,
+.pm_pm_KDM_CSI:hover{
+    display:block;
+}
 
+.pm_pm_IPM_CSI{
+    display:none;
+}
+.pm_IPM_CSI:active ~ .pm_pm_IPM_CSI,
+.pm_pm_IPM_CSI:focus ~ .pm_pm_IPM_CSI,
+.pm_pm_IPM_CSI:hover{
+    display:block;
+}
+
+.pm_pm_IPM1_CSI{
+    display:none;
+}
+
+.pm_IPM1_CSI:active ~ .pm_pm_IPM1_CSI,
+.pm_IPM1_CSI:focus ~ .pm_pm_IPM1_CSI,
+.pm_pm_IPM1_CSI:hover{
+    display:block;
+}
 /*доп. меню административного сектора*/
 .Dop_menu_AC{
     display: none;
@@ -56,15 +141,30 @@ a{
     display: block;
 }
 /*его завершение*/
-
-
-
-/*таблица Dop_munu_Культурно-досуговые мероприятя_OTI*/
-.pm_pm_KDM_OTI{
-    display: none;
+.pm_pm_KDM_AC{
+    display:none;
 }
-.pm_KDM_OTI:focus ~ .pm_pm_KDM_OTI,
-.pm_KDM_OTI:active ~ .pm_pm_KDM_OTI,
-.pm_pm_KDM_OTI:hover{
+.pm_KDM_AC:active ~ .pm_pm_KDM_AC,
+.pm_KDM_AC:focus ~ .pm_pm_KDM_AC,
+.pm_pm_KDM_AC:hover{
     display:block;
+}
+
+.pm_pm_ITM_AC{
+    display:none;
+}
+.pm_ITM_AC:focus ~ .pm_pm_ITM_AC,
+.pm_ITM_AC:active ~ .pm_pm_ITM_AC,
+.pm_pm_ITM_AC:hover{
+    display:block;
+}
+.Glav_Panel{
+    background-color:aqua;
+    height: auto;
+    width: auto;   
+}
+.Glav_Menu{
+    background-color: aqua;
+    height: auto;
+    width: auto;
 }
