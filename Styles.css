@@ -1,48 +1,81 @@
 /*доп. меню Отдела творческих инициатив*/
 .Dop_menu_OTI{
     display: none;
+    transition-property: all;
+}
+.Otdel_Tvor_Inic{
+    border:10x;
 }
 .Otdel_Tvor_Inic:focus ~ .Dop_menu_OTI,
-.Otdel_Tvor_Inic:active ~ .Dop_Menu_OTI,
+.Otdel_Tvor_Inic:active ~ .Dop_menu_OTI,
 .Dop_menu_OTI:hover{
     display: block;
 }
 /*его завершение*/
 table{
-    border: 1px;
+    border-collapse: collapse;
+    vertical-align: middle;
+    height:auto;
+    width: auto;
+}
+table td{
+    border: 1px solid;
+    color:black;
+    vertical-align: middle;
+}
+table th{
+    border: 1px solid;
+    color: black;
+}
+table tr{
+    border:1px solid;
+    color:black;
 }
 /*таблица Dop_munu_Культурно-досуговые мероприятя_OTI*/
 .pm_pm_KDM_OTI{
     display: none;
+    transition-property: all;
+}
+.pm_KDM_OTI{
+    border:10px;
 }
 .pm_KDM_OTI:focus ~ .pm_pm_KDM_OTI,
 .pm_KDM_OTI:active ~ .pm_pm_KDM_OTI,
 .pm_pm_KDM_OTI:hover{
     display:block;
+
 }
 /*его завершение*/
 
 .pm_pm_IPM_OTI{
     display:none;
+    transition-property: all;
 }
-
+.pm_IPM_OTI{
+    border:10px;
+}
 /*таблица Dop_menu_Культурно-досуговые мероприятия_OTI(условия открытия)*/
 .pm_IPM_OTI:focus ~ .pm_pm_IPM_OTI,
 .pm_IPM_OTI:hover ~ .pm_pm_IPM_OTI,
-.pm_pm_IPM_OTI{
+.pm_pm_IPM_OTI:hover{
     display:block;
+    position:fixed;
 }
 /*его завершение*/
 
 
 .pm_pm_K_OTI{
-    display:none;
+    display:none;    
+    transition-property: all;
 }
-
+.pm_K_OTI{
+    border:10px;
+}
 .pm_K_OTI:focus ~ .pm_pm_K_OTI,
 .pm_K_OTI:active ~ .pm_pm_K_OTI,
-.pm_pm_K_OTI{
+.pm_pm_K_OTI:hover{
     display:block;
+    position:fixed;
 }
 a:active, /* активная/посещенная ссылка */
 a:hover,  /* при наведении */
@@ -56,107 +89,158 @@ a{
 /*доп. меню центр музыкальной культуры*/
 .Dop_menu_CMC{
     display: none;
+    transition-property: all;
+}
+.Centre_Muz_Cult{
+    border:10px;
 }
 .Centre_Muz_Cult:focus ~ .Dop_menu_CMC,
 .Centre_Muz_Cult:active ~ .Dop_menu_CMC,
 .Dop_menu_CMC:hover{
     display: block;
+    position:fixed;
 }
 /*его завершение*/
 
 .pm_pm_KDM_CMC{
     display:none;
+    transition-property: all;
 }
-
+.pm_KDM_CMC{
+    border:10px;
+}
 .pm_KDM_CMC:active ~ .pm_pm_KDM_CMC,
 .pm_KDM_CMC:focus ~ .pm_pm_KDM_CMC,
-.pm_pm_KDM_CMC{
+.pm_pm_KDM_CMC:hover{
     display:block;
+    position:fixed;
 }
 
 .pm_pm_IPM_CMC{
     display:none;
+    transition-property: all;
+}
+.pm_IPM_CMC{
+    border:10px;
 }
 .pm_IPM_CMC:active ~ .pm_pm_IPM_CMC,
 .pm_IPM_CMC:focus ~ .pm_pm_IPM_CMC,
-.pm_pm_IPM_CMC:hover{
+.pm_pm_IPM_CMC{
     display:block;
+    position:fixed;
 }
 
 .pm_pm_K_CMC{
     display:none;
+    transition-property: all;
 }
-
+.pm_K_CMC{
+    border:10px;
+}
 .pm_K_CMC:active ~ .pm_pm_K_CMC,
 .pm_K_CMC:focus ~ .pm_pm_K_CMC,
 .pm_pm_K_CMC:hover{
     display:block;
+    position:fixed;
 }
 /*доп. меню центр современного искусства*/
 .Dop_menu_CSI{
     display: none;
+    transition-property: all;
+}
+.Centre_Sov_Issc{
+    border:10px;
 }
 .Centre_Sov_Issc:focus ~ .Dop_menu_CSI,
 .Centre_Sov_Issc:active ~ .Dop_menu_CSI,
 .Dop_menu_CSI:hover{
     display: block;
+    position:fixed;
 }
 /*его завершение*/
 
 .pm_pm_KDM_CSI{
     display:none;
+    transition-property: all;
 }
-
+.pm_KDM_CSI{
+    border:10px;
+}
 .pm_KDM_CSI:active ~ .pm_pm_KDM_CSI,
 .pm_KDM_CSI:focus ~ .pm_pm_KDM_CSI,
 .pm_pm_KDM_CSI:hover{
     display:block;
+    position: fixed;
 }
 
 .pm_pm_IPM_CSI{
     display:none;
+    transition-property: all;
+}
+.pm_IPM_CSI{
+    border:10px;
 }
 .pm_IPM_CSI:active ~ .pm_pm_IPM_CSI,
 .pm_pm_IPM_CSI:focus ~ .pm_pm_IPM_CSI,
 .pm_pm_IPM_CSI:hover{
     display:block;
+    position:fixed;
 }
 
 .pm_pm_IPM1_CSI{
     display:none;
+    transition-property: all;
 }
-
+.pm_IPM1_CSI{
+    border:10px;
+}
 .pm_IPM1_CSI:active ~ .pm_pm_IPM1_CSI,
 .pm_IPM1_CSI:focus ~ .pm_pm_IPM1_CSI,
 .pm_pm_IPM1_CSI:hover{
     display:block;
+    position:fixed;
 }
 /*доп. меню административного сектора*/
 .Dop_menu_AC{
     display: none;
+    transition-property: all;
+}
+.Administration_Sector{
+    border:10px;
 }
 .Administration_Sector:focus ~ .Dop_menu_AC,
 .Administration_Sector:active ~ .Dop_menu_AC,
 .Dop_menu_AC:hover{
     display: block;
+    position:fixed;
 }
 /*его завершение*/
 .pm_pm_KDM_AC{
     display:none;
+    transition-property: all;
+}
+.pm_KDM_AC{
+    border:10px;
 }
 .pm_KDM_AC:active ~ .pm_pm_KDM_AC,
 .pm_KDM_AC:focus ~ .pm_pm_KDM_AC,
 .pm_pm_KDM_AC:hover{
     display:block;
+    position: fixed;
 }
 
 .pm_pm_ITM_AC{
     display:none;
+    transition-property: all;
+}
+.pm_ITM_AC{
+    border:10px;
 }
 .pm_ITM_AC:focus ~ .pm_pm_ITM_AC,
 .pm_ITM_AC:active ~ .pm_pm_ITM_AC,
 .pm_pm_ITM_AC:hover{
     display:block;
+    position:fixed;
 }
 .Glav_Panel{
     background-color:aqua;

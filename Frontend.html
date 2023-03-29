@@ -2,7 +2,7 @@
 
 <body>
     <link rel ="stylesheet" href = "Styles.css">
-    <link rel = "script" href = "script.js">
+    <script src = "script.js"></script>
 </body>
 
 <head>
@@ -13,103 +13,114 @@
         <div class = "Dop_menu_OTI">
             <button onclick = "myFunction_pm_KDM_OTI()" class = "pm_KDM_OTI" href = "script.js"><textarea class = "text_KDM"> Культурно-досуговые мероприятия</textarea></button>
             <div class = "pm_pm_KDM_OTI">
-                <table class = "t_pm_pm_KDM_OTI">
+                <table class = "t_pm_pm_KDM_OTI" align = "center">
                     <tr><th>номер</th><th>Дата и время мероприятия</th><th>Количество присутствующих</th><th>Количество проданных билетов по Пушкинской карте</th><th>Категория присутствующих</th><th>Доход</th><th>Расход</th><th>Ответственный</th><th>Место проведения</th><a href = "javascript:void(0)">добавить</a></tr>
-                    <tr><td></td><td></td><td><table><tr><th>На платной основе</th><th>На бесплатной осове</th></tr></table></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-                    <tr><td></td><td></td><td><table><tr><th>По билетам</th><th>бесплатно</th><th></th></tr></table></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td><table align = "center" class = "t_t_pm_pm_KDM_OTI"><tr><th>На платной основе</th><th>На бесплатной осове</th></tr></table></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td><table align = "left" class = "t_t_two_pm_pm_KDM_OTI"><tr><th>По билетам</th><th>бесплатно</th><th></th></tr></table></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
                 </table>
-            </div>
+                <button onclick = "C_pm_pm_KDM_OTI()" class = "C_pm_pm_KDM_OTI" href = "script.js">скрыть</button>
+            </div><br>
             <button onclick = "myFunction_pm_KDM_OTI()" class = "pm_IPM_OTI" href = "script.js"><textarea class = "text_IPM_OTI"> Информационно-просветительские мероприятия</textarea></button>
             <div class = "pm_pm_IPM_OTI">
-                <table class = "t_pm_pm_IPM_OTI">
+                <table class = "t_pm_pm_IPM_OTI" align = "center">
                     <tr><th>номер</th><th>Дата и время мероприятия</th><th>Количество присутствующих</th><th>Количество проданных билетов по Пушкинской карте</th><th>Категория присутствующих</th><th>Доход</th><th>Расход</th><th>Ответственный</th><th>Место проведения</th><a href = "javascript:void(0)">добавить</a></tr>
-                    <tr><td></td><td></td><td><table><tr><th>На платной основе</th><th>На бесплатной осове</th></tr></table></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-                    <tr><td></td><td></td><td><table><tr><th>По билетам</th><th>бесплатно</th><th></th></tr></table></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td><table align = "center"><tr><th>На платной основе</th><th>На бесплатной осове</th></tr></table></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td><table align = "center"><tr><th>По билетам</th><th>бесплатно</th><th></th></tr></table></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
                 </table>
-            </div>
+                <button onclick = "C_pm_pm_IPM_OTI()" class = "C_pm_pm_IPM_OTI" href = "script.js">скрыть</button>
+            </div><br>
             <button onclick = "myFunction_pm_K_OTI()" class = "pm_K_OTI" href = "script.js"><textarea class = "text_K_OTI">Концерты</textarea></button>
             <div class = "pm_pm_K_OTI">
-                <table class = "t_pm_pm_K_OTI">
+                <table class = "t_pm_pm_K_OTI" align = "center">
                     <tr><th>номер</th><th>Дата и время мероприятия</th><th>Количество присутствующих</th><th>Количество проданных билетов по Пушкинской карте</th><th>Категория присутствующих</th><th>Доход</th><th>Расход</th><th>Ответственный</th><th>Место проведения</th><a href = "javascript:void(0)">добавить</a></tr>
-                    <tr><td></td><td></td><td><table><tr><th>На платной основе</th><th>На бесплатной осове</th></tr></table></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-                    <tr><td></td><td></td><td><table><tr><th>По билетам</th><th>бесплатно</th><th></th></tr></table></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td><table align = "center"><tr><th>На платной основе</th><th>На бесплатной осове</th></tr></table></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td><table align = "center"><tr><th>По билетам</th><th>бесплатно</th><th></th></tr></table></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
                 </table>
-            </div>
+                <button onclick = "" class = "C_pm_pm_K_OTI" href = "script.js">скрыть</button>
+            </div><br>
         </div>
         <br><br>
-        <button onclick="myFunction_Centre_Muz_Cult()" class id = "Centre_Muz_Cult" href = "script.js"><textarea class = "text_CMK">Центр музыкальной культуры</textarea></button>
+        <button onclick="myFunction_Centre_Muz_Cult()" class = "Centre_Muz_Cult" href = "script.js"><textarea class = "text_CMK">Центр музыкальной культуры</textarea></button>
         <div class = "Dop_menu_CMC">
-            <button onclick="myFunction_pm_KDM_CMC()" class id = "pm_KDM_CMC" href = "script.js"><textarea class = "text_KDM_CMK">Культурно-досуговые мероприятия</textarea></button>
+            <button onclick="myFunction_pm_KDM_CMC()" class = "pm_KDM_CMC" href = "script.js"><textarea class = "text_KDM_CMK">Культурно-досуговые мероприятия</textarea></button>
             <div class = "pm_pm_KDM_CMC">
                 <table class = "t_pm_pm_KDM_CMC">
                     <tr><th>номер</th><th>Дата и время мероприятия</th><th>Количество присутствующих</th><th>Количество проданных билетов по Пушкинской карте</th><th>Категория присутствующих</th><th>Доход</th><th>Расход</th><th>Ответственный</th><th>Место проведения</th><a href = "javascript:void(0)">добавить</a></tr>
-                    <tr><td></td><td></td><td><table><tr><th>На платной основе</th><th>На бесплатной осове</th></tr></table></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-                    <tr><td></td><td></td><td><table><tr><th>По билетам</th><th>бесплатно</th><th></th></tr></table></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td><table align = "center"><tr><th>На платной основе</th><th>На бесплатной осове</th></tr></table></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td><table align = "center"><tr><th>По билетам</th><th>бесплатно</th><th></th></tr></table></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
                 </table>
-            </div>
-            <button onclick="myFunction_pm_IPM_CMC()" class id = "pm_IPM_CMC" href = "script.js"><textarea class = "text_IPM_CMK">Информационно-просветительские мероприятия</textarea></button>
+                <button onclick = "" class = "C_pm_pm_KDM_CMC" href = "script.js">скрыть</button>
+            </div><br>
+            <button onclick="myFunction_pm_IPM_CMC()" class = "pm_IPM_CMC" href = "script.js"><textarea class = "text_IPM_CMK">Информационно-просветительские мероприятия</textarea></button>
             <div class = "pm_pm_IPM_CMC">
-                <table class = "t_pm_pm_IPM_CMC">
+                <table class = "t_pm_pm_IPM_CMC" align = "center">
                     <tr><th>номер</th><th>Дата и время мероприятия</th><th>Количество присутствующих</th><th>Количество проданных билетов по Пушкинской карте</th><th>Категория присутствующих</th><th>Доход</th><th>Расход</th><th>Ответственный</th><th>Место проведения</th><a href = "javascript:void(0)">добавить</a></tr>
-                    <tr><td></td><td></td><td><table><tr><th>На платной основе</th><th>На бесплатной осове</th></tr></table></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-                    <tr><td></td><td></td><td><table><tr><th>По билетам</th><th>бесплатно</th><th></th></tr></table></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td><table align = "center"><tr><th>На платной основе</th><th>На бесплатной осове</th></tr></table></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td><table align = "center"><tr><th>По билетам</th><th>бесплатно</th><th></th></tr></table></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
                 </table>
-            </div>
-            <button onclick = "myFunction_pm_K_CMC()" class id = "pm_K_CMC" href = "script.js"><textarea class = "text_K_CMK">Концерты</textarea></button>
+                <button onclick = "" class = "C_pm_pm_IPM_CMC" href = "script.js">скрыть</button>
+            </div><br>
+            <button onclick = "myFunction_pm_K_CMC()" class = "pm_K_CMC" href = "script.js"><textarea class = "text_K_CMK">Концерты</textarea></button>
             <div class = "pm_pm_K_CMC">
-                <table class = "t_pm_pm_K_CMC">
+                <table class = "t_pm_pm_K_CMC" align = "center">
                     <tr><th>номер</th><th>Дата и время мероприятия</th><th>Количество присутствующих</th><th>Количество проданных билетов по Пушкинской карте</th><th>Категория присутствующих</th><th>Доход</th><th>Расход</th><th>Ответственный</th><th>Место проведения</th><a href = "javascript:void(0)">добавить</a></tr>
-                    <tr><td></td><td></td><td><table><tr><th>На платной основе</th><th>На бесплатной осове</th></tr></table></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-                    <tr><td></td><td></td><td><table><tr><th>По билетам</th><th>бесплатно</th><th></th></tr></table></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td><table align = "center"><tr><th>На платной основе</th><th>На бесплатной осове</th></tr></table></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td><table align = "center"><tr><th>По билетам</th><th>бесплатно</th><th></th></tr></table></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
                 </table>
+                <button onclick = "" class = "C_pm_pm_K_CMC" href = "script.js">скрыть</button>
             </div>
         </div>
         <br><br>
-        <button onclick = "myFunction_Centre_Sov_Issc()" class id = "Centre_Sov_Issc" href = "script.js"><textarea class = "text_CSI"> Центр Современного искусства</textarea></button>
+        <button onclick = "myFunction_Centre_Sov_Issc()" class = "Centre_Sov_Issc" href = "script.js"><textarea class = "text_CSI"> Центр Современного искусства</textarea></button>
         <div class = "Dop_menu_CSI">
-            <button onclick = "myFunction_pm_KDM_CSI()" class id = "pm_KDM_CSI" href = "script.js"><textarea class = "text_KDM_CSI">Культурно-досуговые мероприятия</textarea></button>
+            <button onclick = "myFunction_pm_KDM_CSI()" class = "pm_KDM_CSI" href = "script.js"><textarea class = "text_KDM_CSI">Культурно-досуговые мероприятия</textarea></button>
             <div class = "pm_pm_KDM_CSI">
-                <table class = "t_pm_pm_KM_CSI">
+                <table class = "t_pm_pm_KDM_CSI" align = "center">
                     <tr><th>номер</th><th>Дата и время мероприятия</th><th>Количество присутствующих</th><th>Количество проданных билетов по Пушкинской карте</th><th>Категория присутствующих</th><th>Доход</th><th>Расход</th><th>Ответственный</th><th>Место проведения</th><a href = "javascript:void(0)">добавить</a></tr>
-                    <tr><td></td><td></td><td><table><tr><th>На платной основе</th><th>На бесплатной осове</th></tr></table></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-                    <tr><td></td><td></td><td><table><tr><th>По билетам</th><th>бесплатно</th><th></th></tr></table></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td><table align = "center"><tr><th>На платной основе</th><th>На бесплатной осове</th></tr></table></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td><table align = "center"><tr><th>По билетам</th><th>бесплатно</th><th></th></tr></table></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
                 </table>
-            </div>
+                <button onclick = "" class = "C_pm_pm_KDM_CSI" href = "script.js">скрыть</button>
+            </div><br>
             <button onclick = "myFunction_pm_IPM_CSI()" class = "pm_IPM_CSI" href = "script.js"><textarea class = "text_IPM_CSI">Информационно-просветительские мероприятия</textarea></button>
             <div class = "pm_pm_IPM_CSI">
-                <table class = "t_pm_pm_IPM_CSI">
+                <table class = "t_pm_pm_IPM_CSI" align = "center">
                     <tr><th>номер</th><th>Дата и время мероприятия</th><th>Количество присутствующих</th><th>Количество проданных билетов по Пушкинской карте</th><th>Категория присутствующих</th><th>Доход</th><th>Расход</th><th>Ответственный</th><th>Место проведения</th><a href = "javascript:void(0)">добавить</a></tr>
-                    <tr><td></td><td></td><td><table><tr><th>На платной основе</th><th>На бесплатной осове</th></tr></table></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-                    <tr><td></td><td></td><td><table><tr><th>По билетам</th><th>бесплатно</th><th></th></tr></table></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td><table align = "center"><tr><th>На платной основе</th><th>На бесплатной осове</th></tr></table></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td><table align = "center"><tr><th>По билетам</th><th>бесплатно</th><th></th></tr></table></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
                 </table>
-            </div>
+                <button onclick = "" class = "C_pm_pm_IPM_CSI" href = "script.js">скрыть</button>
+            </div><br>
             <button onclick = "myFunction_pm_IPM_One_CSI()" class = "pm_IPM1_CSI" href = "script.js"><textarea class = "text_IPM1_CSI"> Информационно-просветительские мероприятия</textarea></button>
             <div class = "pm_pm_IPM1_CSI">
-                <table class = "t_pm_pm_IPM1_CSI">
+                <table class = "t_pm_pm_IPM1_CSI" align = "center">
                     <tr><th>номер</th><th>Дата и время мероприятия</th><th>Количество присутствующих</th><th>Количество проданных билетов по Пушкинской карте</th><th>Категория присутствующих</th><th>Доход</th><th>Расход</th><th>Ответственный</th><th>Место проведения</th><a href = "javascript:void(0)">добавить</a></tr>
-                    <tr><td></td><td></td><td><table><tr><th>На платной основе</th><th>На бесплатной осове</th></tr></table></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-                    <tr><td></td><td></td><td><table><tr><th>По билетам</th><th>бесплатно</th><th></th></tr></table></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td><table align = "center"><tr><th>На платной основе</th><th>На бесплатной осове</th></tr></table></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td><table align = "center"><tr><th>По билетам</th><th>бесплатно</th><th></th></tr></table></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
                 </table>
+                <button onclick = "" class = "C_pm_pm_IPM1_CSI" href = "script.js">скрыть</button>
             </div>
         </div>
         <br><br>
-        <button onclick = "myFunction_AC()" class id = "Administration_Sector" href = "script.js"><textarea class = "text_AC">Административный сектор</textarea></button>
+        <button onclick = "myFunction_AC()" class = "Administration_Sector" href = "script.js"><textarea class = "text_AC">Административный сектор</textarea></button>
         <div class = "Dop_menu_AC">
             <button onclick = "myFunction_pm_KDM_AC()" class = "pm_KDM_AC" href = "script.js"><textarea class = "text_KDM_AC">Культурно-досуговые мероприятия</textarea></button>
             <div class = "pm_pm_KDM_AC">
-                <table class = "t_pm_pm_KDM_AC">
+                <table class = "t_pm_pm_KDM_AC" align = "center">
                     <tr><th>номер</th><th>Дата и время мероприятия</th><th>Количество присутствующих</th><th>Количество проданных билетов по Пушкинской карте</th><th>Категория присутствующих</th><th>Доход</th><th>Расход</th><th>Ответственный</th><th>Место проведения</th><a href = "javascript:void(0)">добавить</a></tr>
-                    <tr><td></td><td></td><td><table><tr><th>На платной основе</th><th>На бесплатной осове</th></tr></table></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-                    <tr><td></td><td></td><td><table><tr><th>По билетам</th><th>бесплатно</th><th></th></tr></table></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td><table align = "center"><tr><th>На платной основе</th><th>На бесплатной осове</th></tr></table></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td><table align = "center"><tr><th>По билетам</th><th>бесплатно</th><th></th></tr></table></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
                 </table>
-            </div>
+                <button onclick = "" class = "C_pm_pm_KDM_AC" href = "script.js">скрыть</button>
+            </div><br>
             <button onclick = "myFunction_IPM_AC()" class = "pm_ITM_AC" href = "script.js"><textarea class = "text_IPM_AC">Информационно-просветительские мероприятия</textarea></button>
             <div class = "pm_pm_ITM_AC">
-                <table class = "t_pm_pm_ITM_AC">
+                <table class = "t_pm_pm_ITM_AC" align = "center">
                     <tr><th>номер</th><th>Дата и время мероприятия</th><th>Количество присутствующих</th><th>Количество проданных билетов по Пушкинской карте</th><th>Категория присутствующих</th><th>Доход</th><th>Расход</th><th>Ответственный</th><th>Место проведения</th><a href = "javascript:void(0)">добавить</a></tr>
-                    <tr><td></td><td></td><td><table><tr><th>На платной основе</th><th>На бесплатной осове</th></tr></table></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-                    <tr><td></td><td></td><td><table><tr><th>По билетам</th><th>бесплатно</th><th></th></tr></table></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td><table align = "center"><tr><th>На платной основе</th><th>На бесплатной осове</th></tr></table></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td><table align = "center"><tr><th>По билетам</th><th>бесплатно</th><th></th></tr></table></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
                 </table>
+                <button onclick = "" class = "C_pm_pm_ITM_AC" href = "script.js">скрыть</button>
             </div>
         </div>
     </div>
